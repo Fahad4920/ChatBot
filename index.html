@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="1tr">
+    <head>
+        <meta charset="utf-8">
+       <title> Chatbot in JavaScript</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <meta name="viewport" content="width=device=width, initial-sclae=1.0">
+        
+        <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/> -->
+        <script src="script.js" defer></script>
+        </head>
+
+        <body>
+            <button class="chatbot-toggler">
+                <span class="material-symbol-outlined"><i class='bx bx-message-dots'></i></span>
+              <span class="material-symbol-outlined"><i class='bx bx-message-dots'></i></span>
+            </button>
+            <div class="chatbot">
+                <header>
+                    <h2>Chatbot</h2>
+                    <span class="close-btn material-symbol-outlined"><i class='bx bx-window-close' ></i></span>
+                </header>
+                <ul class="chatbox">
+                    <li class="chat incoming">
+                        <span class="material-symbol-outlined"><i class='bx bx-message-dots'></i></span>
+                        <p>Hi there  <br>How can I help you today?</p>
+                    </li>
+                </ul>
+                <div class="chat-input">
+                    <textarea placeholder="Enter a massage...." required></textarea>
+                    <span id="send-btn" class="meeterial-symbol-outlined"><i class='bx bx-send' ></i></span>
+                </div>
+            </div>
+
+
+        </body>
+        </html>
