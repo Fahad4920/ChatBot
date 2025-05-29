@@ -11,6 +11,7 @@ body {
     background: #E3F2FD;
 }
 
+
 .chatbot-toggler {
     position: fixed;
     right: 40px;
@@ -159,6 +160,7 @@ body {
     resize: none;
     padding: 8px 15px;
 }
+
 
 .chat-input span {
     align-self: flex-end;
