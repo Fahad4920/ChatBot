@@ -18,7 +18,6 @@ const createChatLi = (message, className) => {
     chatLi.querySelector("p").textContent = message;
     return chatLi;
 };
-
 const generateResponse = (incomingChatLi) => 
 {
     const API_URL = "https://api.openai.com/v1/chat/completions"; // Corrected API endpoint
@@ -79,3 +78,5 @@ sendChatBtn.addEventListener("click", handleChat);
 
 chatbotCloseBtn.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
 chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
+
+
