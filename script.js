@@ -8,6 +8,7 @@ let userMessage;
 const API_KEY = "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"; 
 const inputInitHeight = ChatInput.scrollHeight;
 
+
 const createChatLi = (message, className) => {
     const chatLi = document.createElement("li");
     chatLi.classList.add("chat", className);
