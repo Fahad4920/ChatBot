@@ -4,7 +4,6 @@ const Chatbox = document.querySelector(".chatbox");
 const chatbotToggler = document.querySelector(".chatbot-toggler");
 const chatbotCloseBtn = document.querySelector(".close-btn");
 
-
 let userMessage;
 const API_KEY = "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"; 
 const inputInitHeight = ChatInput.scrollHeight;
