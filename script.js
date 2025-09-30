@@ -1,9 +1,9 @@
+
 const ChatInput = document.querySelector(".chat-input textarea");
 const sendChatBtn = document.querySelector(".chat-input span");
 const Chatbox = document.querySelector(".chatbox");
 const chatbotToggler = document.querySelector(".chatbot-toggler");
 const chatbotCloseBtn = document.querySelector(".close-btn");
-
 
 let userMessage;
 const API_KEY = "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"; 
